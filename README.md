@@ -15,7 +15,7 @@ npm install
 ```
 
 
-Run react:
+run script:
 
 ```
 npm run
