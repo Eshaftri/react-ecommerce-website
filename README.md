@@ -2,7 +2,7 @@
 https://react-ecommerce-website2.netlify.com/
 
 
-### Responsive ecommerce front end website With Reeact framework.
+### Responsive ecommerce front end website using react framework.
 
 
 ### Installing
