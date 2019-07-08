@@ -29,7 +29,7 @@ export default class Details extends Component {
               <div className="row">
               <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                 <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                  design by :{" "}
+                  design by : river island
                   <span className="text-uppercase">{product.design}</span>
                 </h4>
                 <h4 className="text-blue">
