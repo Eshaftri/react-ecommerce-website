@@ -20,11 +20,12 @@ class App extends Component {
     fetch("./data.json")
         .then(res => res.json())
         .then(data => this.setState({ products: data.products.filter(product => product.category === category) }));
-        console.log('mash')
   }
 
   handleCategory =(category)=>{
     this.componentDidMount(category);
+    this.setState({ sideDrawerOpen: false });
+
   }
 
 

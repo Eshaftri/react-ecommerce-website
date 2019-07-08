@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Product = props => {
 
-    const { prodid, name, altImage, cost } = props.product;
+    const { prodid, name, allImages, cost } = props.product;
     return (
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
@@ -13,7 +13,7 @@ const Product = props => {
                 <div
                   className="img-container p-5" onClick={()=> props.onDetail(prodid)}>
                   <Link to="/details">
-                    <img src={altImage} alt={name} className="card-img-top" />
+                    <img src={allImages[0]} alt={name} className="card-img-top" />
                   </Link>
                 </div>
 
