@@ -1,5 +1,5 @@
 
-https://react-ecommerce-website2.netlify.com/
+## DEMO: https://react-ecommerce-website2.netlify.com/
 
 
 ### Responsive ecommerce front end website using react framework.
